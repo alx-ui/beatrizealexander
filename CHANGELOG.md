@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/alxUI/beatrizealexander/compare/v1.0.2...v1.1.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* hours boas vindas ([770dada](https://github.com/alxUI/beatrizealexander/commit/770dadae6e28b0bd6147930e2dc07cd2664eeccc))
+* link pix casal ([9c7c521](https://github.com/alxUI/beatrizealexander/commit/9c7c5217fb31f4dc56797afed2aa67c1586af515))
+* music player remove onclick ([4d0378b](https://github.com/alxUI/beatrizealexander/commit/4d0378b6e378127015ca8727eb5796f14023fae9))
+* size text component card ([3c107b0](https://github.com/alxUI/beatrizealexander/commit/3c107b0c1e50705a859b48948a1b80157be379da))
+
+
+### Features
+
+* add component welcome modal ([22d49c7](https://github.com/alxUI/beatrizealexander/commit/22d49c7bbad665e31738eb366db4a8afa3770938))
+* add function modal home page ([295cc85](https://github.com/alxUI/beatrizealexander/commit/295cc851b291d0b4569a498ad5a279002a78c60a))
+* add link example traje ([2fe0bef](https://github.com/alxUI/beatrizealexander/commit/2fe0befa624e9925e275869b92026cf88d2c4d94))
+
 ## [1.0.2](https://github.com/alxUI/beatrizealexander/compare/v1.0.1...v1.0.2) (2023-01-23)
 
 
