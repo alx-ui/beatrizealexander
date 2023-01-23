@@ -13,12 +13,24 @@ import { Information } from 'components/Information';
 import { LocationMap } from 'components/LocationMap';
 import { MusicPlayer } from 'components/MusicPlayer';
 import { SectionWrapper } from 'components/SectionWrapper';
+import { WelcomeModal } from 'components/WelcomeModal';
 
 export function Homepage() {
   const isSmallScreen = useMediaQuery({ query: `(max-width: 768px)` });
 
   const [isMobile, setIsMobile] = useState(false);
-  const [playMusic, setPlayMusic] = useState(false);
+
+  const [openWelcome, setOpenWelcome] = useState(true);
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const onCloseWelcomeModal = () => {
+    setOpenWelcome(false);
+    document.body.style.overflow = 'auto';
+    window.scrollTo({ top: 0 });
+  };
 
   useEffect(() => {
     setIsMobile(isSmallScreen);
@@ -32,6 +44,7 @@ export function Homepage() {
       }}
       className="bg-[#f9f9f9]"
     >
+      <WelcomeModal isOpen={openWelcome} onClose={onCloseWelcomeModal} />
       <div
         className="flex h-screen items-center justify-center bg-cover bg-center bg-no-repeat md:h-[750px]"
         style={{ backgroundImage: `url(${isMobile ? heroBgMobile : heroBg})` }}
@@ -103,7 +116,7 @@ export function Homepage() {
         </a>
       </div>
 
-      <MusicPlayer play={!playMusic} onClick={() => setPlayMusic(!playMusic)} />
+      <MusicPlayer play={!openWelcome} />
     </div>
   );
 }
