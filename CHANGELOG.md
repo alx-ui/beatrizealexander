@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/alxUI/beatrizealexander/compare/v1.0.0...v1.0.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* audio play ([d0b6fee](https://github.com/alxUI/beatrizealexander/commit/d0b6fee46bd9ce8eb9d3e866d7505365c1deaf04))
+
 # 1.0.0 (2023-01-23)
 
 
