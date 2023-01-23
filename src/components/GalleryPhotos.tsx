@@ -67,7 +67,7 @@ export function GalleryPhotos() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((_, { index }) => {
+  const openLightbox = useCallback((_: any, { index }: any) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
   }, []);
@@ -96,8 +96,8 @@ export function GalleryPhotos() {
                 <Carousel
                   styles={{}}
                   currentIndex={currentImage}
-                  views={photos.map((x) => ({
-                    source: x.src,
+                  views={photos.map((photo) => ({
+                    source: photo.src,
                   }))}
                 />
               </Modal>
