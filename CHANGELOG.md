@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/alxUI/beatrizealexander/compare/v1.0.1...v1.0.2) (2023-01-23)
+
+
+### Bug Fixes
+
+* button play music ([0b76ed6](https://github.com/alxUI/beatrizealexander/commit/0b76ed637123da6f735c14171611c6e0fab45e01))
+
 ## [1.0.1](https://github.com/alxUI/beatrizealexander/compare/v1.0.0...v1.0.1) (2023-01-23)
 
 
