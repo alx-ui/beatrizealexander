@@ -18,6 +18,7 @@ export function Homepage() {
   const isSmallScreen = useMediaQuery({ query: `(max-width: 768px)` });
 
   const [isMobile, setIsMobile] = useState(false);
+  const [playMusic, setPlayMusic] = useState(false);
 
   useEffect(() => {
     setIsMobile(isSmallScreen);
@@ -102,7 +103,7 @@ export function Homepage() {
         </a>
       </div>
 
-      <MusicPlayer play={true} />
+      <MusicPlayer play={!playMusic} onClick={() => setPlayMusic(!playMusic)} />
     </div>
   );
 }

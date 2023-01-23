@@ -3,9 +3,10 @@ import { BiPlay, BiPause } from 'react-icons/bi';
 
 interface MusicPlayerProps {
   play?: boolean;
+  onClick?: () => void;
 }
 
-export function MusicPlayer({ play: playParent }: MusicPlayerProps) {
+export function MusicPlayer({ play: playParent, onClick }: MusicPlayerProps) {
   const [play, setPlay] = useState(false);
   const audio = useRef<HTMLAudioElement>(null);
 
@@ -28,7 +29,7 @@ export function MusicPlayer({ play: playParent }: MusicPlayerProps) {
 
   return (
     <>
-      <audio controls ref={audio} loop hidden muted>
+      <audio controls ref={audio} loop hidden onClick={onClick}>
         <source src={'/wedding.mp3'} type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
       </audio>
