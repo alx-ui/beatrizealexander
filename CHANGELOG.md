@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/alxUI/beatrizealexander/compare/v1.1.0...v1.1.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* music player ([7ad0f9d](https://github.com/alxUI/beatrizealexander/commit/7ad0f9d19cdb4d2af405d8b7135a70acc389de1b))
+
 # [1.1.0](https://github.com/alxUI/beatrizealexander/compare/v1.0.2...v1.1.0) (2023-01-23)
 
 
