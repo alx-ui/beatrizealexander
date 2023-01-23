@@ -28,7 +28,7 @@ export function MusicPlayer({ play: playParent }: MusicPlayerProps) {
 
   return (
     <>
-      <audio controls ref={audio} loop hidden>
+      <audio controls ref={audio} loop hidden muted>
         <source src={'/wedding.mp3'} type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
       </audio>

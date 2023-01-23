@@ -102,7 +102,7 @@ export function Homepage() {
         </a>
       </div>
 
-      <MusicPlayer play />
+      <MusicPlayer play={true} />
     </div>
   );
 }
