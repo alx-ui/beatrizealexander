@@ -22,7 +22,7 @@ export function Card({ icon, name, info, description, disabled }: CardProps) {
           <div className="mr-2 text-2xl font-bold md:text-3xl">{name}</div>
         </div>
         <div className="mb-0.5 font-medium">{description}</div>
-        <div className="text-lg font-semibold md:text-xl">{info}</div>
+        <div className="text-sm font-semibold md:text-xl">{info}</div>
       </div>
     </div>
   );
