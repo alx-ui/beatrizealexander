@@ -21,6 +21,7 @@ export function Homepage() {
   const [isMobile, setIsMobile] = useState(false);
 
   const [openWelcome, setOpenWelcome] = useState(true);
+  const [playMusic, setPlayMusic] = useState(false);
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -28,6 +29,7 @@ export function Homepage() {
 
   const onCloseWelcomeModal = () => {
     setOpenWelcome(false);
+    setPlayMusic(true);
     document.body.style.overflow = 'auto';
     window.scrollTo({ top: 0 });
   };
@@ -116,7 +118,7 @@ export function Homepage() {
         </a>
       </div>
 
-      <MusicPlayer play={!openWelcome} />
+      <MusicPlayer play={playMusic} setPlay={() => setPlayMusic(!playMusic)} />
     </div>
   );
 }
