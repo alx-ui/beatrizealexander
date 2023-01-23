@@ -1,3 +1,35 @@
+# 1.0.0 (2023-01-23)
+
+
+### Bug Fixes
+
+* config initial ([246c9e7](https://github.com/alxUI/beatrizealexander/commit/246c9e70e38a6d3052e22e29eba02d88509b1732))
+* error component gallery photos ([e89b961](https://github.com/alxUI/beatrizealexander/commit/e89b96196a9916e30725347e48e29f33806d7fa1))
+* imports providers ([a6c1760](https://github.com/alxUI/beatrizealexander/commit/a6c17607e2e8a7bd9ee8233738499b6acc3c0a5d))
+* link footer ([f14f52c](https://github.com/alxUI/beatrizealexander/commit/f14f52cad12b3b59e4cdb5d89d7af12b893f7e67))
+* styles global css ([529d766](https://github.com/alxUI/beatrizealexander/commit/529d766648cf78a2a21d751417929dbd6fcdf083))
+
+
+### Features
+
+* add assets ([3241acb](https://github.com/alxUI/beatrizealexander/commit/3241acbb3971e2bc1c6077eea361649259735bd4))
+* add component agendas ([2a37002](https://github.com/alxUI/beatrizealexander/commit/2a37002595e6711a813ca9a70528d74420d90ad8))
+* add component bride and groom ([87784be](https://github.com/alxUI/beatrizealexander/commit/87784bef487af8e0b4ecf843a55669b28d08d1d5))
+* add component card ([a5f3dc3](https://github.com/alxUI/beatrizealexander/commit/a5f3dc320be33db6d9ab14aaf5ae0076de73fe19))
+* add component countdown ([13f2b05](https://github.com/alxUI/beatrizealexander/commit/13f2b0591d52e0846ba396b99acf9bec818b7b91))
+* add component digital envelope ([869d455](https://github.com/alxUI/beatrizealexander/commit/869d455a5de4d6b54a63c0fd17c40d4ba19ce2ba))
+* add component gallery photos ([d8c76ea](https://github.com/alxUI/beatrizealexander/commit/d8c76eaa75166fd4132ab7422a9e3f895ddf5f2f))
+* add component information ([3e4bc8c](https://github.com/alxUI/beatrizealexander/commit/3e4bc8cd3d904fca564b0ae325d5445a5daac846))
+* add component location map ([2722ac4](https://github.com/alxUI/beatrizealexander/commit/2722ac48ab614285dc0f67bd432d7e255a0b666a))
+* add component music player ([6e92530](https://github.com/alxUI/beatrizealexander/commit/6e925303293fd6f8e1dc8739512a36126b44b56e))
+* add component section wrapper ([312cdc0](https://github.com/alxUI/beatrizealexander/commit/312cdc0796ceb05dd336e60da5e0e97d1e58d6c5))
+* add component text with line ([1af3e83](https://github.com/alxUI/beatrizealexander/commit/1af3e83b56a0632d62fe11a9cf9fb4e4b3fafdc8))
+* add configs netlify ([cf05249](https://github.com/alxUI/beatrizealexander/commit/cf05249af788c559d2f1351e6eaa2404b5bc1395))
+* add favicon and tags seo ([e5e739b](https://github.com/alxUI/beatrizealexander/commit/e5e739b3da5669f042ceb3241ac8e1e0edf2de6d))
+* add home page ([bd2c0f4](https://github.com/alxUI/beatrizealexander/commit/bd2c0f41e42356c88f6d42300f7fee69c6808fa9))
+* add music ([2e6b08a](https://github.com/alxUI/beatrizealexander/commit/2e6b08a524ab080526b8d275995cb3e4b17e4c5f))
+* add tailwindcss config ([78ce514](https://github.com/alxUI/beatrizealexander/commit/78ce51489378c90092fc8ce8e5ee7be7379e820a))
+
 ## [1.0.7](https://github.com/alxUI/boilerplate-vite/compare/v1.0.6...v1.0.7) (2022-12-12)
 
 
