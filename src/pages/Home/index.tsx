@@ -92,7 +92,14 @@ export function Homepage() {
 
       <div className="relative bg-[#efefef] py-24 text-center font-sans text-gray-700">
         © {new Date().getFullYear()} feito por{' '}
-        <span className="font-semibold">ialexanderbrito</span>
+        <a
+          className="font-semibold hover:text-primary"
+          href="https://www.ialexanderbrito.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ialexanderbrito
+        </a>
       </div>
 
       <MusicPlayer play />
