@@ -40,7 +40,7 @@ export function DigitalEnvelope() {
         </a>
         <a
           className="mb-10 px-4"
-          href="https://nubank.com.br/pagar/5eykf/R5C9psuMcy"
+          href="https://nubank.com.br/pagar/5eykf/wTts8j93nV"
           target="_blank"
           rel="noreferrer"
         >
@@ -55,7 +55,7 @@ export function DigitalEnvelope() {
           <Card
             icon={<SiInstagram />}
             name="Filtro no Instagram"
-            info="Use #beatrizealexander para poder retirar sua foto no Instaclick"
+            info="Use #beatrizealexander para pegar sua foto no Instaclick"
             description="Não esqueça de nos marcar."
             disabled
           />
