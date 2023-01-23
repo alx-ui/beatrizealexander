@@ -13,7 +13,7 @@ export function Agendas() {
         <a
           href={CALENDAR_URL}
           target={'_blank'}
-          className="w-full cursor-pointer rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white outline-4 outline-[#6867AC] transition-all hover:bg-senary disabled:pointer-events-none disabled:opacity-50"
+          className="w-full cursor-pointer rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white outline-4 outline-primary transition-all hover:bg-senary disabled:pointer-events-none disabled:opacity-50"
           rel="noreferrer"
         >
           Adicionar ao calendário
@@ -25,7 +25,7 @@ export function Agendas() {
           BOAS VINDAS
         </div>
         <div className="col-span-1 text-right font-sans text-gray-700 md:text-center">
-          15:00
+          14:30
         </div>
       </div>
 
