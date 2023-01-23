@@ -1,3 +1,6 @@
+const LINK_INDICACAO =
+  'https://www.google.com/search?q=traje+esporte+fino+casamento&tbm=isch&hl=pt-BR&client=ms-android-samsung-gs-rev1&prmd=isvn&sa=X&ved=2ahUKEwi6-5_P7938AhVHOLkGHW8UB7IQrNwCKAB6BQgBEKIC&biw=360&bih=700';
+
 export function Information() {
   return (
     <div>
@@ -15,7 +18,18 @@ export function Information() {
           </p>
 
           <ul className="list-inside list-disc text-justify font-Cormorant text-xl leading-6 text-gray-500">
-            <li className="text-justify">Traje requerido: Esporte Fino.</li>
+            <li className="text-justify">
+              Traje requerido:{' '}
+              <a
+                href={LINK_INDICACAO}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:text-senary"
+              >
+                Esporte Fino
+              </a>
+              .
+            </li>
             <li className="text-justify">
               Sapatos: Evitem sapatos de salto fino, há grama na maior parte dos
               ambientes.
