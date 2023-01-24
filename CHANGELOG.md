@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/alxUI/beatrizealexander/compare/v1.1.1...v1.1.2) (2023-01-24)
+
+
+### Bug Fixes
+
+* size button and input cellphone ([c7ae538](https://github.com/alxUI/beatrizealexander/commit/c7ae5384e4f1b9762c64bd2832a10ec769917737))
+
 ## [1.1.1](https://github.com/alxUI/beatrizealexander/compare/v1.1.0...v1.1.1) (2023-01-23)
 
 
