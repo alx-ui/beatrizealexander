@@ -44,7 +44,7 @@ export function LocationMap() {
               <p className="mb-16 font-Cormorant text-lg md:mb-10">
                 {MAP_ADDRESS}
               </p>
-              <div className="flex justify-center gap-4 md:justify-start">
+              <div className="flex flex-col justify-center gap-4 md:flex-row md:justify-start">
                 <input
                   type="text"
                   className="rounded-md border-2 border-transparent bg-gray-100 px-5 py-2 text-lg font-semibold text-gray-700 outline-4 outline-senary transition-all focus:border-primary focus:bg-white focus:outline-none"
