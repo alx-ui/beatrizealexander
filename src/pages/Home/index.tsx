@@ -99,7 +99,7 @@ export function Homepage() {
       <div className="mb-2">
         <LocationMap />
 
-        <div className="elfsight-app-888e4920-bc26-4be5-948f-327fd8aaaaba"></div>
+        <div className="elfsight-app-06339fdf-c1a3-455f-8492-e042f1a62f43" />
       </div>
 
       <SectionWrapper className="mb-2">
