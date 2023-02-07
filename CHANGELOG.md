@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/alxUI/beatrizealexander/compare/v1.1.2...v1.2.0) (2023-02-07)
+
+
+### Features
+
+* add update instagram feed ([98ec62c](https://github.com/alxUI/beatrizealexander/commit/98ec62cfac0845bf8f31c66e6bc005a3627a8dc2))
+
 ## [1.1.2](https://github.com/alxUI/beatrizealexander/compare/v1.1.1...v1.1.2) (2023-01-24)
 
 
