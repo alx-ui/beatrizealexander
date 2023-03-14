@@ -107,7 +107,7 @@ export function Homepage() {
       </SectionWrapper>
 
       <div className="relative bg-[#efefef] py-24 text-center font-sans text-gray-700">
-        © {new Date().getFullYear()} feito por{' '}
+        © {new Date().getFullYear()} feito com 💚 por{' '}
         <a
           className="font-semibold hover:text-primary"
           href="https://www.ialexanderbrito.dev"
