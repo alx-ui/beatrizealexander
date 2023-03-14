@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/alxUI/beatrizealexander/compare/v1.2.0...v1.2.1) (2023-03-14)
+
+
+### Bug Fixes
+
+* footer ([eac5508](https://github.com/alxUI/beatrizealexander/commit/eac550856162b3592f01737613206f8b114c4afd))
+
 # [1.2.0](https://github.com/alxUI/beatrizealexander/compare/v1.1.2...v1.2.0) (2023-02-07)
 
 
