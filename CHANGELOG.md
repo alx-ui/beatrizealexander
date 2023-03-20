@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/alxUI/beatrizealexander/compare/v1.2.1...v1.3.0) (2023-03-20)
+
+
+### Features
+
+* add iframe list chabar ([7c29bc5](https://github.com/alxUI/beatrizealexander/commit/7c29bc5fcdfaa0745af10b1df793368dde954b48))
+
 ## [1.2.1](https://github.com/alxUI/beatrizealexander/compare/v1.2.0...v1.2.1) (2023-03-14)
 
 
