@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/alxUI/beatrizealexander/compare/v1.4.3...v1.5.0) (2023-03-20)
+
+
+### Features
+
+* add coutdown page cha de panela ([06e9e58](https://github.com/alxUI/beatrizealexander/commit/06e9e58231ac9d90efb330e20cfcb340ed420da1))
+
 ## [1.4.3](https://github.com/alxUI/beatrizealexander/compare/v1.4.2...v1.4.3) (2023-03-20)
 
 
