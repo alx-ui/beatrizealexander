@@ -7,6 +7,7 @@ export function ChaDePanela() {
         height="100%"
         allowFullScreen
         title="Publicação incorporada"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   );
