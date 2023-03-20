@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/alxUI/beatrizealexander/compare/v1.3.0...v1.3.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* test link ([d279c41](https://github.com/alxUI/beatrizealexander/commit/d279c4195a90506ae5fed5d29d3e8f4a9174ca05))
+
 # [1.3.0](https://github.com/alxUI/beatrizealexander/compare/v1.2.1...v1.3.0) (2023-03-20)
 
 
