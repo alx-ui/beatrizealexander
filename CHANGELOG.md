@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/alxUI/beatrizealexander/compare/v1.4.0...v1.4.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* iframe chabar ([66f8a22](https://github.com/alxUI/beatrizealexander/commit/66f8a223518066f29093aac9a7a18cbf41a76a8e))
+
 # [1.4.0](https://github.com/alxUI/beatrizealexander/compare/v1.3.2...v1.4.0) (2023-03-20)
 
 
