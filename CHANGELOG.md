@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/alxUI/beatrizealexander/compare/v1.3.1...v1.3.2) (2023-03-20)
+
+
+### Bug Fixes
+
+* link chabar ([e5d2fa1](https://github.com/alxUI/beatrizealexander/commit/e5d2fa1c2ba7fc1f2fc7db7a47b724fd052adc4f))
+
 ## [1.3.1](https://github.com/alxUI/beatrizealexander/compare/v1.3.0...v1.3.1) (2023-03-20)
 
 
