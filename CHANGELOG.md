@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/alxUI/beatrizealexander/compare/v1.4.1...v1.4.2) (2023-03-20)
+
+
+### Bug Fixes
+
+* meta tag ([791403e](https://github.com/alxUI/beatrizealexander/commit/791403e44ce49e0bf683ddaf8697bcf62b0f7fd9))
+
 ## [1.4.1](https://github.com/alxUI/beatrizealexander/compare/v1.4.0...v1.4.1) (2023-03-20)
 
 
