@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/alxUI/beatrizealexander/compare/v1.4.2...v1.4.3) (2023-03-20)
+
+
+### Bug Fixes
+
+* remove meta tag ([f9d846c](https://github.com/alxUI/beatrizealexander/commit/f9d846cb20b5a9147a2aa4752dbad16842d37c1e))
+
 ## [1.4.2](https://github.com/alxUI/beatrizealexander/compare/v1.4.1...v1.4.2) (2023-03-20)
 
 
