@@ -1,14 +1,29 @@
+import { useEffect, useState } from 'react';
+
 export function ChaDePanela() {
+  const [contdown, setContdown] = useState(3);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setContdown(contdown - 1);
+    }, 1000);
+
+    if (contdown === 0) {
+      clearTimeout(timer);
+      window.location.href = 'http://beatrizealexander.meuchadepanela.com.br/';
+    }
+
+    return () => clearTimeout(timer);
+  }, [contdown]);
+
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center">
-      <iframe
-        src="http://beatrizealexander.meuchadepanela.com.br/"
-        width="100%"
-        height="100%"
-        allowFullScreen
-        title="Publicação incorporada"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <h1 className="text-center font-Cormorant text-2xl font-bold text-gray-800">
+        Você será redirecionado para o site do Chá de Panela ...
+        <br />
+        <br />
+        {contdown}
+      </h1>
     </div>
   );
 }
