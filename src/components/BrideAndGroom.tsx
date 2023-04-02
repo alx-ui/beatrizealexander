@@ -5,7 +5,7 @@ import { TextWithLine } from 'components/TextWithLine';
 
 export function BrideAndGroom() {
   return (
-    <div className="pt-20 pb-0">
+    <div className="pb-0 pt-20">
       <h3 className="Garamond mb-6 text-center font-Cormorant text-5xl font-bold text-gray-700">
         Sobre nós
       </h3>

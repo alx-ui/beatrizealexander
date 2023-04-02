@@ -13,7 +13,7 @@ export function MusicPlayer({ play, setPlay }: MusicPlayerProps) {
     <>
       <ReactHowler src={music} playing={play} loop volume={0.5} />
 
-      <div className="fixed bottom-0 right-0 z-50 mr-3 mb-3 md:mr-8 md:mb-8">
+      <div className="fixed bottom-0 right-0 z-50 mb-3 mr-3 md:mb-8 md:mr-8">
         <button
           className="flex h-9 w-9 items-center justify-center rounded-full  bg-septenary text-4xl drop-shadow-md md:h-11 md:w-11"
           aria-label="audio-control"

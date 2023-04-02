@@ -72,7 +72,7 @@ export function Homepage() {
           <h5 className="font-head ml-1 text-center text-3xl font-bold text-gray-700">
             &
           </h5>
-          <h5 className="font-head ml-1 mb-4 text-center text-3xl font-bold text-gray-700">
+          <h5 className="font-head mb-4 ml-1 text-center text-3xl font-bold text-gray-700">
             Adacilene e Alexander
           </h5>
         </div>
