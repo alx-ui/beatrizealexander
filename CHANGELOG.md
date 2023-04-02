@@ -1,3 +1,18 @@
+# [1.6.0](https://github.com/alxUI/beatrizealexander/compare/v1.5.0...v1.6.0) (2023-04-02)
+
+
+### Bug Fixes
+
+* lint ([8282505](https://github.com/alxUI/beatrizealexander/commit/8282505730e7c778397dfcab8433acde33e64586))
+* lock ([507170b](https://github.com/alxUI/beatrizealexander/commit/507170bcc0e68ed78c66d83e1d3d514b2d64391f))
+
+
+### Features
+
+* add not found page ([8470884](https://github.com/alxUI/beatrizealexander/commit/847088459abbafc225be6ade9e95094a2dcc3195))
+* add routes ([ef312f8](https://github.com/alxUI/beatrizealexander/commit/ef312f84b72dd3c7c1ce1a08cc41e33926f326f5))
+* update dependacies ([f44f559](https://github.com/alxUI/beatrizealexander/commit/f44f559cc9a78119e5de624bc9647535a629a040))
+
 # [1.5.0](https://github.com/alxUI/beatrizealexander/compare/v1.4.3...v1.5.0) (2023-03-20)
 
 
