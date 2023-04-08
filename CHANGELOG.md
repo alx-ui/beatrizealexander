@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/alxUI/beatrizealexander/compare/v1.6.0...v1.7.0) (2023-04-08)
+
+
+### Features
+
+* add page links ([1f045c0](https://github.com/alxUI/beatrizealexander/commit/1f045c07e00ff5b7e7103e700edd0fa5cdaf399f))
+
 # [1.6.0](https://github.com/alxUI/beatrizealexander/compare/v1.5.0...v1.6.0) (2023-04-02)
 
 
