@@ -13,7 +13,7 @@ export function MainRoutes() {
       <Route path="/" element={<Homepage />} />
       <Route path="/chabar" element={<ChaDePanela />} />
       <Route path="/riachuelo" element={<Riachuelo />} />
-      <Route path="/casas-bahia" element={<CasasBahia />} />
+      <Route path="/casasbahia" element={<CasasBahia />} />
       <Route path="/links" element={<Links />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
