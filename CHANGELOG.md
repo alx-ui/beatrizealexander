@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/alxUI/beatrizealexander/compare/v1.7.0...v1.8.0) (2023-05-25)
+
+
+### Bug Fixes
+
+* countdown ([d7db92a](https://github.com/alxUI/beatrizealexander/commit/d7db92ac4e2d8e05ab48116e11aa12436a7db4c4))
+* link casas bahia ([9c4c1af](https://github.com/alxUI/beatrizealexander/commit/9c4c1af7740f151be5c57ed2d707631c17440010))
+* lint ([6f80aa0](https://github.com/alxUI/beatrizealexander/commit/6f80aa01157deb6ed27eb065bdaf1de70c4b3b1c))
+
+
+### Features
+
+* add new links gifts list ([f5d63ea](https://github.com/alxUI/beatrizealexander/commit/f5d63ea8796ee218d39bfff00a6891ffa1fad307))
+
 # [1.7.0](https://github.com/alxUI/beatrizealexander/compare/v1.6.0...v1.7.0) (2023-04-08)
 
 
