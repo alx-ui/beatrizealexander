@@ -19,7 +19,8 @@ export function Riachuelo() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center">
       <h1 className="text-center font-Cormorant text-2xl font-bold text-gray-800">
-        Você será redirecionado para o site da lista de presentes na Riachuelo ...
+        Você será redirecionado para o site da lista de presentes na Riachuelo
+        ...
         <br />
         <br />
         {contdown}

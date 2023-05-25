@@ -10,7 +10,8 @@ export function CasasBahia() {
 
     if (contdown === 0) {
       clearTimeout(timer);
-      window.location.href = 'https://listas.casasbahia.com.br/alexanderebeatriz';
+      window.location.href =
+        'https://listas.casasbahia.com.br/alexanderebeatriz';
     }
 
     return () => clearTimeout(timer);
@@ -19,7 +20,8 @@ export function CasasBahia() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center">
       <h1 className="text-center font-Cormorant text-2xl font-bold text-gray-800">
-        Você será redirecionado para o site da lista de presentes na Casas Bahia ...
+        Você será redirecionado para o site da lista de presentes na Casas Bahia
+        ...
         <br />
         <br />
         {contdown}
