@@ -43,25 +43,25 @@ export function Links() {
               Site dos noivos
             </Link>
 
-            <a
-              href="https://www.domeujeito.com.br/lista/230723"
+            <Link
+              to="/riachuelo"
               target="_blank"
               rel="noreferrer"
               type="button"
               className="mb-4 cursor-pointer rounded-md bg-primary py-3 text-center font-sans font-medium text-white outline-4 outline-primary transition-all hover:bg-senary disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:mb-10"
             >
               Lista de presentes • Riachuelo
-            </a>
+            </Link>
 
-            <a
-              href="https://listas.casasbahia.com.br/alexanderebeatriz"
+            <Link
+              to="/casasbahia"
               target="_blank"
               rel="noreferrer"
               type="button"
               className="mb-4 cursor-pointer rounded-md bg-primary py-3 text-center font-sans font-medium text-white outline-4 outline-primary transition-all hover:bg-senary disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:mb-10"
             >
               Lista de presentes • Casas Bahia
-            </a>
+            </Link>
           </div>
         </div>
       </SectionWrapper>
