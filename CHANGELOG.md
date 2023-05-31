@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/alxUI/beatrizealexander/compare/v1.9.0...v1.10.0) (2023-05-31)
+
+
+### Features
+
+* add volume music ([f4bc6ef](https://github.com/alxUI/beatrizealexander/commit/f4bc6ef0577b74029fbc2df4450c55803dbbac9a))
+
 # [1.9.0](https://github.com/alxUI/beatrizealexander/compare/v1.8.0...v1.9.0) (2023-05-31)
 
 
