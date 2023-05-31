@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/alxUI/beatrizealexander/compare/v1.10.0...v1.10.1) (2023-05-31)
+
+
+### Bug Fixes
+
+* links page ([e50d101](https://github.com/alxUI/beatrizealexander/commit/e50d101594e772fbda8b7817d8b5bb7de3d74ae2))
+
 # [1.10.0](https://github.com/alxUI/beatrizealexander/compare/v1.9.0...v1.10.0) (2023-05-31)
 
 
