@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/alxUI/beatrizealexander/compare/v1.8.0...v1.9.0) (2023-05-31)
+
+
+### Features
+
+* add new photos ([0bb5624](https://github.com/alxUI/beatrizealexander/commit/0bb56241b5cb531198c83b11917386183bc99a75))
+* update meta tags ([b31f6c6](https://github.com/alxUI/beatrizealexander/commit/b31f6c6aa64bd392f4f064cdfe583e9d04744372))
+
 # [1.8.0](https://github.com/alxUI/beatrizealexander/compare/v1.7.0...v1.8.0) (2023-05-25)
 
 
