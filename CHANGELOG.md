@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/alxUI/beatrizealexander/compare/v1.10.1...v1.10.2) (2023-05-31)
+
+
+### Bug Fixes
+
+* button show volume ([f9b0397](https://github.com/alxUI/beatrizealexander/commit/f9b039702825a04caf423df27309eb18b97bac86))
+
 ## [1.10.1](https://github.com/alxUI/beatrizealexander/compare/v1.10.0...v1.10.1) (2023-05-31)
 
 
