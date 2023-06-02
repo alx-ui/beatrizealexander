@@ -27,14 +27,6 @@ export function Links() {
             Nossas listas de casamento
           </h4>
           <div className=" flex flex-col justify-evenly">
-            <a
-              href="#"
-              type="button"
-              className="mb-4 cursor-pointer rounded-md bg-primary py-3 text-center font-sans font-medium text-white outline-4 outline-primary transition-all hover:bg-senary disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:mb-10"
-            >
-              Confirmar presença
-            </a>
-
             <Link
               to="/"
               type="button"
