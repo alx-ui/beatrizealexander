@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/alxUI/beatrizealexander/compare/v1.10.2...v1.10.3) (2023-06-02)
+
+
+### Bug Fixes
+
+* remove confirmar presenca ([ce9b94f](https://github.com/alxUI/beatrizealexander/commit/ce9b94f448fc5782d262430ed735208465553cef))
+
 ## [1.10.2](https://github.com/alxUI/beatrizealexander/compare/v1.10.1...v1.10.2) (2023-05-31)
 
 
