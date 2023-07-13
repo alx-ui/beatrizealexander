@@ -1,6 +1,7 @@
 import { BiShoppingBag } from 'react-icons/bi';
 import { MdPayment } from 'react-icons/md';
 import { SiInstagram } from 'react-icons/si';
+import { Link } from 'react-router-dom';
 
 import { Card } from 'components/Card';
 
@@ -12,9 +13,9 @@ export function DigitalEnvelope() {
       </h4>
 
       <div className=" flex flex-col justify-evenly md:flex-row md:flex-wrap">
-        <a
+        <Link
           className="mb-10 px-4"
-          href="https://www.domeujeito.com.br/lista/230723"
+          to="/riachuelo"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,10 +25,10 @@ export function DigitalEnvelope() {
             info="Lista de Presentes"
             description="Clique para acessar a lista"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           className="mb-10 px-4"
-          href="https://listas.casasbahia.com.br/alexanderebeatriz"
+          to="/casasbahia"
           target="_blank"
           rel="noreferrer"
         >
@@ -37,29 +38,28 @@ export function DigitalEnvelope() {
             info="Lista de Presentes"
             description="Clique para acessar a lista"
           />
-        </a>
-        <a
-          className="mb-10 px-4"
-          href="https://nubank.com.br/pagar/5eykf/wTts8j93nV"
-          target="_blank"
-          rel="noreferrer"
-        >
+        </Link>
+        <Link className="mb-10 px-4" to="/pix" target="_blank" rel="noreferrer">
           <Card
             icon={<MdPayment />}
             name="Ajude na Lua de Mel"
             info="casal@beatrizealexander.com"
             description="Faça um pix para o casal. Chave pix:"
           />
-        </a>
-        <a className="mb-10 px-4" href="/" onClick={(e) => e.preventDefault()}>
+        </Link>
+        <Link
+          className="mb-10 px-4"
+          to="/filtro"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Card
             icon={<SiInstagram />}
             name="Filtro no Instagram"
             info="Use #beatrizealexander para pegar sua foto no Instaclick"
             description="Não esqueça de nos marcar."
-            disabled
           />
-        </a>
+        </Link>
       </div>
     </div>
   );
