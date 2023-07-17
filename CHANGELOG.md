@@ -1,3 +1,20 @@
+# [1.11.0](https://github.com/alxUI/beatrizealexander/compare/v1.10.3...v1.11.0) (2023-07-17)
+
+
+### Bug Fixes
+
+* links digital envelopes ([84030ce](https://github.com/alxUI/beatrizealexander/commit/84030cebc51d5b541e56e6c7c5bc65e62069846b))
+* remove cha de panela page ([7bde861](https://github.com/alxUI/beatrizealexander/commit/7bde8614e10e3e43b23c79bd8fab23c54b9e9355))
+
+
+### Features
+
+* add coutdown married date ([f960989](https://github.com/alxUI/beatrizealexander/commit/f96098931312c57db560a998983cd674d521b89e))
+* add new routes ([d6af446](https://github.com/alxUI/beatrizealexander/commit/d6af4460271048fc1ea1adf8e910557c7ea1ffc7))
+* add page filter instagram ([c5f786a](https://github.com/alxUI/beatrizealexander/commit/c5f786a2b65d6274a6b683955d1ddfaf733c4d42))
+* add page pix ([694f297](https://github.com/alxUI/beatrizealexander/commit/694f297c25cde77a1319b2f3266f697f355f9457))
+* add page rotas google maps ([6d9b46d](https://github.com/alxUI/beatrizealexander/commit/6d9b46db5ce7e406abe88778e49edf2a98749f15))
+
 ## [1.10.3](https://github.com/alxUI/beatrizealexander/compare/v1.10.2...v1.10.3) (2023-06-02)
 
 
