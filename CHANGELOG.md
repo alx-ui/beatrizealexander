@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/alxUI/beatrizealexander/compare/v1.11.0...v2.0.0) (2024-03-10)
+
+
+### Features
+
+* update dependencies and new version node v20 ([6963851](https://github.com/alxUI/beatrizealexander/commit/696385122a5b7c66f08106fa3d83eefe77b0faa2))
+
+
+### BREAKING CHANGES
+
+* update all dependencies and files config and new version node v20
+
 # [1.11.0](https://github.com/alxUI/beatrizealexander/compare/v1.10.3...v1.11.0) (2023-07-17)
 
 
