@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/alx-ui/beatrizealexander/compare/v2.0.0...v2.1.0) (2024-05-13)
+
+
+### Features
+
+* update dependencies ([9f25670](https://github.com/alx-ui/beatrizealexander/commit/9f256701e284a9d6e94fa54433d61def1b49b751))
+
 # [2.0.0](https://github.com/alxUI/beatrizealexander/compare/v1.11.0...v2.0.0) (2024-03-10)
 
 
