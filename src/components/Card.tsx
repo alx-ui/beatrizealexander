@@ -1,5 +1,5 @@
 interface CardProps {
-  icon: JSX.Element;
+  icon: React.ReactNode;
   name: string;
   info: string;
   description?: string;
@@ -9,7 +9,7 @@ interface CardProps {
 export function Card({ icon, name, info, description, disabled }: CardProps) {
   return (
     <div
-      className=" h-52 w-full flex-shrink-0 rounded-[20px] bg-[#d9ef9f] p-6 shadow-lg shadow-[#cbdded] hover:shadow-2xl hover:transition-all md:h-64 md:w-[430px]"
+      className="h-52 w-full flex-shrink-0 rounded-[20px] bg-[#d9ef9f] p-6 shadow-lg shadow-[#cbdded] hover:shadow-2xl hover:transition-all md:h-64 md:w-[430px]"
       style={{
         backgroundImage: 'linear-gradient(62deg, #96ac60 0%, #d9ef9f 45%)',
         filter: disabled ? 'grayscale(100%)' : 'none',

@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import ReactHowler from 'react-howler';
-import {
-  BiPlay,
-  BiPause,
-  BiPlus,
-  BiMinus,
-  BiChevronRight,
-  BiChevronLeft,
-} from 'react-icons/bi';
 
+import {
+  CaretLeft,
+  CaretRight,
+  Minus,
+  Pause,
+  Play,
+  Plus,
+} from '@phosphor-icons/react';
 import music from 'assets/wedding.mp3';
 
 interface MusicPlayerProps {
@@ -41,7 +41,7 @@ export function MusicPlayer({ play, setPlay }: MusicPlayerProps) {
             setPlay(!play);
           }}
         >
-          {play ? <BiPause /> : <BiPlay />}
+          {play ? <Pause size={24} /> : <Play size={24} />}
         </button>
         {showVolume && (
           <>
@@ -53,7 +53,7 @@ export function MusicPlayer({ play, setPlay }: MusicPlayerProps) {
                 setVolumeChange(volumeChange - 0.1);
               }}
             >
-              <BiMinus className="text-2xl" />
+              <Minus className="text-2xl" size={24} />
             </button>
             <button
               className="flex h-9 w-9 items-center justify-center rounded-full bg-septenary text-4xl drop-shadow-md md:h-11 md:w-11"
@@ -63,7 +63,7 @@ export function MusicPlayer({ play, setPlay }: MusicPlayerProps) {
                 setVolumeChange(volumeChange + 0.1);
               }}
             >
-              <BiPlus className="text-2xl" />
+              <Plus className="text-2xl" size={24} />
             </button>
 
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-septenary text-lg drop-shadow-md md:h-11 md:w-11">
@@ -80,9 +80,9 @@ export function MusicPlayer({ play, setPlay }: MusicPlayerProps) {
           }}
         >
           {showVolume ? (
-            <BiChevronRight className="text-2xl" />
+            <CaretRight className="text-2xl" size={24} />
           ) : (
-            <BiChevronLeft className="text-2xl" />
+            <CaretLeft className="text-2xl" size={24} />
           )}
         </button>
       </div>

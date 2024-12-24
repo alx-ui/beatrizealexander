@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router';
 
 import { CasasBahia } from 'pages/CasasBahia';
 import { Filtro } from 'pages/Filtro';

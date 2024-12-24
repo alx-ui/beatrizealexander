@@ -1,7 +1,6 @@
-import { BiShoppingBag } from 'react-icons/bi';
-import { MdPayment } from 'react-icons/md';
-import { SiInstagram } from 'react-icons/si';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
+
+import { ShoppingBag, PixLogo, InstagramLogo } from '@phosphor-icons/react';
 
 import { Card } from 'components/Card';
 
@@ -12,54 +11,42 @@ export function DigitalEnvelope() {
         Nossas listas de casamento
       </h4>
 
-      <div className=" flex flex-col justify-evenly md:flex-row md:flex-wrap">
-        <Link
-          className="mb-10 px-4"
-          to="/riachuelo"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <div className="flex flex-col justify-evenly md:flex-row md:flex-wrap">
+        <div className="mb-10 px-4">
           <Card
-            icon={<BiShoppingBag />}
+            icon={<ShoppingBag />}
             name="Riachuelo"
             info="Lista de Presentes"
             description="Clique para acessar a lista"
+            disabled
           />
-        </Link>
-        <Link
-          className="mb-10 px-4"
-          to="/casasbahia"
-          target="_blank"
-          rel="noreferrer"
-        >
+        </div>
+        <div className="mb-10 px-4">
           <Card
-            icon={<BiShoppingBag />}
+            icon={<ShoppingBag />}
             name="Casas Bahia"
             info="Lista de Presentes"
             description="Clique para acessar a lista"
+            disabled
           />
-        </Link>
+        </div>
         <Link className="mb-10 px-4" to="/pix" target="_blank" rel="noreferrer">
           <Card
-            icon={<MdPayment />}
+            icon={<PixLogo />}
             name="Ajude na Lua de Mel"
             info="casal@beatrizealexander.com"
             description="Faça um pix para o casal. Chave pix:"
           />
         </Link>
-        <Link
-          className="mb-10 px-4"
-          to="/filtro"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <div className="mb-10 px-4">
           <Card
-            icon={<SiInstagram />}
+            icon={<InstagramLogo />}
             name="Filtro no Instagram"
             info="Use #beatrizealexander para pegar sua foto no Instaclick"
             description="Não esqueça de nos marcar."
+            disabled
           />
-        </Link>
+        </div>
       </div>
     </div>
   );

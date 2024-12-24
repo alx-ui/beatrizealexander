@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 import heroBgMobile from 'assets/hero-bg-mobile.jpg';
 
@@ -26,7 +26,7 @@ export function Links() {
           <h4 className="font-head mb-14 pt-10 text-center text-3xl font-bold text-gray-700">
             Nossas listas de casamento
           </h4>
-          <div className=" flex flex-col justify-evenly">
+          <div className="flex flex-col justify-evenly">
             <Link
               to="/"
               type="button"
