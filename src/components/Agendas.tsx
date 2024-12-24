@@ -29,7 +29,7 @@ export function Agendas() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 px-4 py-8 text-center text-2xl font-black md:px-0 md:py-16  md:text-3xl">
+      <div className="grid grid-cols-2 gap-4 px-4 py-8 text-center text-2xl font-black md:px-0 md:py-16 md:text-3xl">
         <div className="col-span-1 text-left font-sans text-gray-400 md:text-center">
           CERIMÔNIA
         </div>

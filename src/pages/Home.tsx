@@ -62,7 +62,7 @@ export function Homepage() {
       </div>
 
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center">
           <h5 className="font-head mb-4 mt-4 text-center text-2xl font-bold text-gray-700">
             vão se casar com as bênçãos de seus pais
           </h5>
