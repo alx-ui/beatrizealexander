@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/alx-ui/beatrizealexander/compare/v2.1.0...v2.1.1) (2024-12-24)
+
+
+### Bug Fixes
+
+* adjust CSS classes for consistent formatting ([127a511](https://github.com/alx-ui/beatrizealexander/commit/127a511167e8288daa3eabd66f584aadf8bf2ced))
+
 # [2.1.0](https://github.com/alx-ui/beatrizealexander/compare/v2.0.0...v2.1.0) (2024-05-13)
 
 
